@@ -282,13 +282,10 @@ This guarantees **ontology consistency**.
 .
 ├── README.md
 ├── chebi_dataset_train.parquet
-├── chebi_dataset_test_empty.parquet
 ├── chebi_classes.obo
 ├── chebi_class_definitions.csv
-│
-├── outputs/
-│   ├── training_curves_mlp_fp.png
-│   └── chebi_submission_mlp_fp.parquet
+├── ensemble_lgbm_mlp.ipynb
+├── MLP_fingerprints.ipynb
 ```
 
 ---
